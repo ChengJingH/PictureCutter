@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E8014AC92252EF7A00940B53 /* MaskView.m in Sources */ = {isa = PBXBuildFile; fileRef = E8014AC82252EF7A00940B53 /* MaskView.m */; };
+		E8014ACC2252F23800940B53 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8014ACB2252F23800940B53 /* CoreGraphics.framework */; };
+		E8014ACE2252F50300940B53 /* timg.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E8014ACD2252F50300940B53 /* timg.jpeg */; };
+		E8014AD122536E9100940B53 /* GridView.m in Sources */ = {isa = PBXBuildFile; fileRef = E8014AD022536E9100940B53 /* GridView.m */; };
 		E8107AD222521D37001FB7E6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E8107AD122521D37001FB7E6 /* AppDelegate.m */; };
 		E8107AD522521D37001FB7E6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8107AD422521D37001FB7E6 /* ViewController.m */; };
 		E8107AD822521D37001FB7E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8107AD622521D37001FB7E6 /* Main.storyboard */; };
@@ -15,6 +19,10 @@
 		E8107AE022521D38001FB7E6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E8107ADF22521D38001FB7E6 /* main.m */; };
 		E8107AEA22521D38001FB7E6 /* ToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E8107AE922521D38001FB7E6 /* ToolTests.m */; };
 		E8107AF522521D38001FB7E6 /* ToolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E8107AF422521D38001FB7E6 /* ToolUITests.m */; };
+		E8DB8B76225ADADA00CFA3E0 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8DB8B75225ADADA00CFA3E0 /* OpenGLES.framework */; };
+		E8DB8B78225ADBA100CFA3E0 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8DB8B77225ADBA100CFA3E0 /* GLKit.framework */; };
+		E8DB8B7B225B31E700CFA3E0 /* MaskLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = E8DB8B7A225B31E700CFA3E0 /* MaskLayer.m */; };
+		E8F64BB42255AD1C003F2D43 /* RotateLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = E8F64BB32255AD1C003F2D43 /* RotateLayer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +43,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E8014AC72252EF7A00940B53 /* MaskView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MaskView.h; sourceTree = "<group>"; };
+		E8014AC82252EF7A00940B53 /* MaskView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MaskView.m; sourceTree = "<group>"; };
+		E8014ACB2252F23800940B53 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E8014ACD2252F50300940B53 /* timg.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = timg.jpeg; sourceTree = "<group>"; };
+		E8014ACF22536E9100940B53 /* GridView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GridView.h; sourceTree = "<group>"; };
+		E8014AD022536E9100940B53 /* GridView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GridView.m; sourceTree = "<group>"; };
 		E8107ACD22521D37001FB7E6 /* Tool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tool.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8107AD022521D37001FB7E6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E8107AD122521D37001FB7E6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +65,12 @@
 		E8107AF022521D38001FB7E6 /* ToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8107AF422521D38001FB7E6 /* ToolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToolUITests.m; sourceTree = "<group>"; };
 		E8107AF622521D38001FB7E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8DB8B75225ADADA00CFA3E0 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		E8DB8B77225ADBA100CFA3E0 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		E8DB8B79225B31E700CFA3E0 /* MaskLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MaskLayer.h; sourceTree = "<group>"; };
+		E8DB8B7A225B31E700CFA3E0 /* MaskLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MaskLayer.m; sourceTree = "<group>"; };
+		E8F64BB22255AD1C003F2D43 /* RotateLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RotateLayer.h; sourceTree = "<group>"; };
+		E8F64BB32255AD1C003F2D43 /* RotateLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RotateLayer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +78,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8DB8B78225ADBA100CFA3E0 /* GLKit.framework in Frameworks */,
+				E8DB8B76225ADADA00CFA3E0 /* OpenGLES.framework in Frameworks */,
+				E8014ACC2252F23800940B53 /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +101,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E8014ACA2252F23700940B53 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E8DB8B77225ADBA100CFA3E0 /* GLKit.framework */,
+				E8DB8B75225ADADA00CFA3E0 /* OpenGLES.framework */,
+				E8014ACB2252F23800940B53 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E8107AC422521D37001FB7E6 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +118,7 @@
 				E8107AE822521D38001FB7E6 /* ToolTests */,
 				E8107AF322521D38001FB7E6 /* ToolUITests */,
 				E8107ACE22521D37001FB7E6 /* Products */,
+				E8014ACA2252F23700940B53 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +135,7 @@
 		E8107ACF22521D37001FB7E6 /* Tool */ = {
 			isa = PBXGroup;
 			children = (
+				E8107B0222521D52001FB7E6 /* Pic_Tool */,
 				E8107AD022521D37001FB7E6 /* AppDelegate.h */,
 				E8107AD122521D37001FB7E6 /* AppDelegate.m */,
 				E8107AD322521D37001FB7E6 /* ViewController.h */,
@@ -130,6 +165,22 @@
 				E8107AF622521D38001FB7E6 /* Info.plist */,
 			);
 			path = ToolUITests;
+			sourceTree = "<group>";
+		};
+		E8107B0222521D52001FB7E6 /* Pic_Tool */ = {
+			isa = PBXGroup;
+			children = (
+				E8014ACD2252F50300940B53 /* timg.jpeg */,
+				E8F64BB22255AD1C003F2D43 /* RotateLayer.h */,
+				E8F64BB32255AD1C003F2D43 /* RotateLayer.m */,
+				E8DB8B79225B31E700CFA3E0 /* MaskLayer.h */,
+				E8DB8B7A225B31E700CFA3E0 /* MaskLayer.m */,
+				E8014AC72252EF7A00940B53 /* MaskView.h */,
+				E8014AC82252EF7A00940B53 /* MaskView.m */,
+				E8014ACF22536E9100940B53 /* GridView.h */,
+				E8014AD022536E9100940B53 /* GridView.m */,
+			);
+			path = Pic_Tool;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,6 +288,7 @@
 			files = (
 				E8107ADD22521D38001FB7E6 /* LaunchScreen.storyboard in Resources */,
 				E8107ADA22521D38001FB7E6 /* Assets.xcassets in Resources */,
+				E8014ACE2252F50300940B53 /* timg.jpeg in Resources */,
 				E8107AD822521D37001FB7E6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,8 +314,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8DB8B7B225B31E700CFA3E0 /* MaskLayer.m in Sources */,
+				E8014AC92252EF7A00940B53 /* MaskView.m in Sources */,
 				E8107AD522521D37001FB7E6 /* ViewController.m in Sources */,
+				E8F64BB42255AD1C003F2D43 /* RotateLayer.m in Sources */,
 				E8107AE022521D38001FB7E6 /* main.m in Sources */,
+				E8014AD122536E9100940B53 /* GridView.m in Sources */,
 				E8107AD222521D37001FB7E6 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -370,7 +426,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -423,7 +479,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -436,7 +492,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E96A3MNGLQ;
 				INFOPLIST_FILE = Tool/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,7 +510,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E96A3MNGLQ;
 				INFOPLIST_FILE = Tool/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
